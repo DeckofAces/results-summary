@@ -29,7 +29,7 @@ const Summary = () => {
 				<Field icon={memory} title='Memory' score={92} colour='orangey-yellow' />
 				<Field icon={verbal} title='Verbal' score={61} colour='green-teal' />
 				<Field icon={visual} title='Visual' score={72} colour='cobalt-blue' />
-				<button className='w-full rounded-full bg-dark-grey-blue p-4 text-white'>Continue</button>
+				<button className='mt-3 w-full rounded-full bg-dark-grey-blue from-light-slate-blue to-light-royal-blue p-4 text-white active:bg-gradient-to-b'>Continue</button>
 			</section>
 		</div>
 	);
